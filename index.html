@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>travel planner</title>
+  <!-- Add this line for the CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Add this line for the JavaScript file -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header" data-header>
+  <div class="overlay" data-overlay></div>
+  <div class="header-top">
+    <div class="container">
+      <a href="tel:+01123456790" class="helpline-box">
+        <div class="icon-box"></div>
+        <div class="wrapper">
+          <p class="helpline-title">For Further Inquires :</p>
+          <p class="helpline-number">+01 (123) 4567 90</p>
+        </div>
+      </a>
+      <a href="#" class="logo">Logo</a>
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search"></button>
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn></button>
+      </div>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <div class="container">
+      <ul class="social-list">
+        <li><a href="#" class="social-link"></a></li>
+        <li><a href="#" class="social-link"></a></li>
+        <li><a href="#" class="social-link"></a></li>
+      </ul>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img decoding="async" src="https://www.codester.com/static/uploads/items/000/017/17228/preview/001.jpg" alt="Tourly logo">
+          </a>
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn></button>
+        </div>
+        <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link" data-nav-link>home</a></li>
+          <li><a href="#" class="navbar-link" data-nav-link>about us</a></li>
+          <li><a href="#destination" class="navbar-link" data-nav-link>destination</a></li>
+          <li><a href="#package" class="navbar-link" data-nav-link>packages</a></li>
+          <li><a href="#gallery" class="navbar-link" data-nav-link>gallery</a></li>
+          <li><a href="#contact" class="navbar-link" data-nav-link>contact us</a></li>
+        </ul>
+      </nav>
+      <button class="btn btn-primary">Book Now</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <article>
+    <section class="hero" id="home">
+      <div class="container">
+        <h2 class="h1 hero-title">Journey to explore world</h2>
+        <p class="hero-text">
+            Plan your holidays with a world-class travel company for Honeymoon, Family, and group tours. Discover the world tour packages with us..
+        </p> 
+        <div class="btn-group">
+          <button class="btn btn-primary">Learn more</button>
+          <button class="btn btn-secondary">Book now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="tour-search">
+      <div class="container">
+        <div class="input-wrapper">
+          <label for="destination" class="input-label">Search Destination*</label>
+        </div>
+        <div class="input-wrapper">
+          <label for="people" class="input-label">Pax Number*</label>
+        </div>
+        <div class="input-wrapper">
+          <label for="checkin" class="input-label">Checkin Date**</label>
+        </div>
+        <div class="input-wrapper">
+          <label for="checkout" class="input-label">Checkout Date*</label>
+        </div>
+        <button type="submit" class="btn btn-secondary">Inquire now</button>
+      </div>
+    </section>
+
+    <section class="popular" id="destination">
+      <div class="container">
+        <p class="section-subtitle">Uncover place</p>
+        <h2 class="h2 section-title">Popular destination</h2>
+        <p class="section-text">
+          Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+          Sit ornare mollitia tenetur, aptent.
+        </p>
+        <ul class="popular-list">
+          <li>
+            <div class="popular-card">
+              <figure class="card-img">
+                <img decoding="async" src="https://cdn.contexttravel.com/image/upload/c_fill,q_60,w_1536/v1700075391/production/city/hero_image_105_1700075391d69e1e49.jpg" alt="San miguel, italy" loading="lazy">
+              </figure>
+              <div class="card-content">
+                <div class="card-rating"></div>
+                <p class="card-subtitle"><a href="#">Italy</a></p>
+                <h3 class="h3 card-title"><a href="#">San miguel</a></h3>
+                <p class="card-text">"Discover the timeless beauty of Italy: from the romantic canals of Venice to the ancient ruins of Rome.".</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="popular-card">
+              <figure class="card-img">
+                <img decoding="async" src="https://live.staticflickr.com/4143/4822698239_a36dca9993_z.jpg" alt="Burj khalifa, dubai" loading="lazy">
+              </figure>
+              <div class="card-content">
+                <div class="card-rating"></div>
+                <p class="card-subtitle"><a href="#">Dubai</a></p>
+                <h3 class="h3 card-title"><a href="#">Burj khalifa</a></h3>
+                <p class="card-text">"Soar to new heights with the world's tallest building,
+                    Experience Dubai's crown jewel: the Burj Khalifa."</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="popular-card">
+              <figure class="card-img">
+                <img decoding="async" src="https://www.travelcaffeine.com/wp-content/uploads/2018/10/kamigamo-shrine-kyoto-japan-unesco-world-heritage-site-988.jpg" alt="Kyoto temple, japan" loading="lazy">
+              </figure>
+              <div class="card-content">
+                <div class="card-rating"></div>
+                <p class="card-subtitle"><a href="#">Japan</a></p>
+                <h3 class="h3 card-title"><a href="#">Kyoto temple</a></h3>
+                <p class="card-text">"Discover serenity in Kyoto's ancient temples and
+                    Immerse yourself in Japanese spirituality."</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <button class="btn btn-primary">More destintion</button>
+      </div>
+    </section>
+
+    <section class="package" id="package">
+      <div class="container">
+        <p class="section-subtitle">Popular Packeges</p>
+        <h2 class="h2 section-title">Checkout Our Packeges</h2>
+        <p class="section-text">
+            All inclusive tours, Chalo Bag Bharo Nikal Pado!
+        </p>
+        <ul class="package-list">
+          <li>
+            <div class="package-card">
+              <figure class="card-banner">
+                <img decoding="async" src="https://primarktravelhouse.com/images/international-tour-packages/malyasia/truly-malayasia.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Experience The Great Holiday On Beach</h3>
+                <p class="card-text">
+                    Monsoon Offer
+                    Now with upgraded sights & multiple tour options. Book now!
+                </p>
+                <ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <p class="text">7D/6N</p>
+                    </div>
+                  </li>
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <p class="text">pax: 10</p>
+                    </div>
+                  </li>
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <p class="text">Malaysia</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-price">
+                <div class="wrapper">
+                  <p class="reviews">(25 reviews)</p>
+                  <div class="card-rating"></div>
+                </div>
+                <p class="price">Rs.39999 <span>/ per person</span></p>
+                <button class="btn btn-secondary">Book Now</button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="
